@@ -3,9 +3,5 @@
 }
 
 img {
-    min-height: calc(100%);
     max-height: 300px!important;
-    max-width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
 }
