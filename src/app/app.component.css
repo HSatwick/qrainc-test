@@ -1,0 +1,27 @@
+
+.social-media-block {
+    display: flex;
+    justify-content: flex-end;
+    margin: auto;
+}
+
+.media-buttons {
+    background-color: black;
+    color: white;
+}
+
+.media-buttons:hover {
+    background-color: green;
+    color: white;
+}
+
+@media (max-width: 767px) {
+    .social-media-block {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+::ng-deep .mat-tab-group.mat-primary .mat-ink-bar, .mat-tab-nav-bar.mat-primary .mat-ink-bar {
+    background-color: green!important;
+}

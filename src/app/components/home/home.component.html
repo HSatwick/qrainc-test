@@ -1,0 +1,47 @@
+<div class="container-fluid">
+    <mat-card>
+        <mat-card-header>
+            <mat-card-title>
+                Mission Statement
+            </mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+            {{missionStatement}}
+        </mat-card-content>
+        <mat-card-footer>
+            <mat-progress-bar mode="indeterminate"></mat-progress-bar>
+        </mat-card-footer>
+    </mat-card>
+    <hr>
+    <h4>About Us</h4>
+    <br>
+    <div class="row">
+        <div class="col-md-4 col-sm-12">
+            <mat-card>
+                <img mat-card-image src="assets/images/home/moles.png"/>
+                <mat-card-content>
+                    {{paraOne}}
+                </mat-card-content>
+            </mat-card>
+            <br>
+        </div>
+        <div class="col-md-4">
+            <mat-card>
+                <img mat-card-image src="assets/images/home/incubate.png"/>
+                <mat-card-content>
+                    {{paraTwo}}
+                </mat-card-content>
+            </mat-card>
+            <br>
+        </div>
+        <div class="col-md-4">
+            <mat-card>
+                <img mat-card-image src="assets/images/home/pcr.png"/>
+                <mat-card-content>
+                    {{paraThree}}
+                </mat-card-content>
+            </mat-card>
+            <br>
+        </div>
+    </div>
+</div>
